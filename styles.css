@@ -1,0 +1,46 @@
+:root {
+    --background-header-footer: #1f2937;
+    --font-main: #f9faf8;
+    --font-secondary: #e5e7eb;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--font-main)
+}
+
+h1 {
+    font-size: 24px;
+    color: var(--font-main);
+}
+
+p,
+a {
+    font-size: 18px;
+    color: var(--font-secondary);
+}
+
+.header {
+    background-color: var(--background-header-footer);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+
